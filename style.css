@@ -1,7 +1,8 @@
 body {
     font-size: 100%;
-    font-size: 0.875em; /* 14/16=.875=14 pts */
-      background-image: linear-gradient(#e84392, #5650ce);
+    font-size: 0.875em;
+    /* 14/16=.875=14 pts */
+    background-image: linear-gradient(#e84392, #5650ce);
 }
 
 p {
@@ -11,29 +12,299 @@ p {
     line-height: 120%;
     text-align: justify;
     color: white;
-   
+
 }
 
 p2 {
-    font-family: "Courier New", courier, monospace;
+    font-family: "century-gothic", monospace;
     font-weight: normal;
+    font-style: normal;
     font-size: 2vw;
     line-height: 120%;
     text-align: right;
-    color: deeppink;
+    color: deepskyblue;
+}
+
+p3 {
+    font-family: "manicotti", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
+}
+
+p4 {
+    font-family: "hoosier-daddy", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
+}
+
+p5 {
+    font-family: "discourse-wide", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
+}
+
+p6 {
+    font-family: "french-octagon", monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 8vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
+}
+
+p7 {
+    font-family: "cottonwood-std", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
 }
 
 h1 {
-    font-family: "Helvetica", courier, monospace;
+    font-family: "helvetica", courier, monospace;
     font-size: 6vw;
     line-height: 60%;
     color: red;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "helvetica", courier, monospace;
+    font-size: 6vw;
+    line-height: 80%;
+    color: red;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: "helvetica", courier, monospace;
+    font-size: 15vw;
+    line-height: 80%;
+    color: red;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p8 {
+    font-family: "liebedoni-solid", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: yellow;
+    line-height: 100%;
+    text-align: right;
+}
+
+p9 {
+    font-family: "helvetica", sans-serif, monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+    color: black;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: -1.1px;
+}
+
+p10 {
+    font-family: "discourse-wide", sans-serif, monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6vw;
+    color: red;
+    line-height: 100%;
+    text-align: right;
 }
 
 .wrapper {
-    background-color: black; 
+    background-color: black;
     margin: 4% auto;
+    margin-left: 40%;
     padding: 20px;
     width: 10%;
+    float: left;
+    z-index: 1;
+
 }
 
+.wrapper2 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    margin: 4% auto;
+    margin-right: 20%;
+    margin-top: 350% ;
+    padding: 20px;
+    width: 10%;
+    float: right;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+.wrapper3 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    margin: 4% auto;
+    margin-left: -50%;
+    margin-top: 450% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+.wrapper4 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    margin: 4% auto;
+    margin-right: -20%;
+    margin-top: 500% ;
+    padding: 20px;
+    width: 10%;
+    float: right;
+    top: 350%;
+    font-size: 2vw;
+}
+
+.wrapper5 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-right: 0%;
+    margin-top: -250% ;
+    padding: 0px;
+    width: 100%;
+    float: right;
+    top: 0;
+    z-index: -2;
+}
+
+.wrapper6 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-left: 0%;
+    margin-top: -850% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+
+.wrapper7 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-left: 50%;
+    margin-top: -150% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+.wrapper8 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-left: 20%;
+    margin-top: -450% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+
+
+.wrapper9 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-right: 20%;
+    margin-top: -360% ;
+    padding: 20px;
+    width: 10%;
+    float: right;
+    top: 350%;
+    font-size: 2vw;
+
+}
+
+
+/*
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+4x3 Aspect Ratio
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+    z-index: -1;
+    width: 100vw;
+    float: right;
+    position: fixed;
+   
+}
+.grid-item {
+  background-color: rgba(255, 255, 255,);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+*/
