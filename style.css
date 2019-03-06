@@ -265,6 +265,35 @@ p10 {
 
 }
 
+.wrapper10 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-left: 2%;
+    margin-top: -290% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+
+}
+
+.wrapper11 {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:;
+    margin: 4% auto;
+    margin-left: 2%;
+    margin-top: -250% ;
+    padding: 20px;
+    width: 10%;
+    float: left;
+    top: 350%;
+
+}
+
+
 
 /*
 .iframe-container {
