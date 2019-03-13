@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-  --mainColor: #ff9800;
+  --mainColor: yellow;
 }
 
 a {
@@ -237,7 +237,8 @@ position: -webkit-sticky;
     float: left;
     top: 350%;
     font-size: 10vw;
-    
+   
+ 
 }
 
 .echidna
@@ -294,7 +295,7 @@ position: -webkit-sticky;
     position: sticky;
     background-color: ;
     margin: 4% auto;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: -150%;
     padding: 20px;
     width: 10%;
